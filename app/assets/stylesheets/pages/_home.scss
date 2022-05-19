@@ -1,0 +1,48 @@
+// Specific CSS for your home-page
+
+#container {
+  position: relative;
+  display: flex;
+}
+
+#controls {
+  width: 200vh;
+  height: 100vh;
+  z-index: 6;
+  position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+  }
+
+
+#mapillus {
+background-color: #BEE5BF;
+width: 200vh;
+height: 100vh;
+z-index: 1;
+position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+#mapdev {
+  background-color: #CE7DA5;
+  width: 200vh;
+  height: 100vh;
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+  }
