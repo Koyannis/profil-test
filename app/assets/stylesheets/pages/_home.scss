@@ -1,4 +1,8 @@
 // Specific CSS for your home-page
+body{
+
+  overflow-x: hidden;
+}
 
 #container {
   position: relative;
@@ -6,7 +10,7 @@
 }
 
 #controls {
-  width: 200vh;
+  width: 205vh;
   z-index: 6;
   position: absolute;
     top: 0;
@@ -21,7 +25,6 @@
 
 .categoriesButtons
   {
-
   transition: opacity 0.7s ease;
   margin-left: 40px;
   margin-right: 40px;
@@ -34,7 +37,7 @@
 
 #mapillus {
 background-color: #BEE5BF;
-width: 200vh;
+width: 205vh;
 height: 100vh;
 z-index: 1;
 position: absolute;
@@ -51,7 +54,7 @@ position: absolute;
 
 #mapdev {
   background-color: #CE7DA5;
-  width: 200vh;
+  width: 205vh;
   height: 100vh;
   z-index: -1;
   position: absolute;
