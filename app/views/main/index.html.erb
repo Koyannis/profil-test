@@ -1,14 +1,27 @@
 <div id="container" data-controller="page">
-  <div  id="controls">
+
+  <div  id="controls" class="slides">
     <div class="categoriesButtons" data-action="click->page#switchillus">Illustrateur</div>
     <div>||</div>
     <div class="categoriesButtons" data-action="click->page#switchdev">Développeur Web</div>
   </div>
-  <div class="animate__animated animate__slideInLeft" id="mapillus" data-page-target="mapillus" >
-      Je suis illustrateur
+
+  <div  id="IllusControls" class="animate__animated slides" data-page-target="illuMenu">
+    <div class="categoriesButtons"><i class="bi bi-instagram"></i></div>
   </div>
-  <div class="animate__animated animate__fadeOut" id="mapdev" data-page-target="mapdev">
-      Je suis développeur
+
+  <div  id="DevControls" class="animate__animated slides" data-page-target="DevMenu">
+    <div class="categoriesButtons"><i class="bi bi-github"></i></div>
+  </div>
+
+  <div class="animate__animated slides" id="mapwelcome" data-page-target="mapwelcome" >
+      <div class="animate__animated textinslide" >Bienvenue !</div>
+  </div>
+  <div class="animate__animated  slides" id="mapillus" data-page-target="mapillus" >
+      <div class="animate__animated textinslide" data-page-target="textillus">Je suis illustrateur</div>
+  </div>
+  <div class="animate__animated slides" id="mapdev" data-page-target="mapdev">
+      <div class="animate__animated textinslide" data-page-target="textdev">Je suis développeur</div>
   </div>
 
 
