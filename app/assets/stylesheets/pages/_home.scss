@@ -7,7 +7,6 @@
 
 #controls {
   width: 200vh;
-  height: 100vh;
   z-index: 6;
   position: absolute;
     top: 0;
@@ -15,9 +14,23 @@
     text-align: center;
     display: flex;
     justify-content: center;
+    font-size: 40px;
 
   }
 
+
+.categoriesButtons
+  {
+
+  transition: opacity 0.7s ease;
+  margin-left: 40px;
+  margin-right: 40px;
+  opacity: 0.5;
+
+  &:hover {
+  opacity: 1;
+  }
+  }
 
 #mapillus {
 background-color: #BEE5BF;
@@ -30,6 +43,8 @@ position: absolute;
   display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 40px;
+
 
 }
 
@@ -43,6 +58,8 @@ position: absolute;
   top: 0;
   left: 0;
   display: flex;
-    justify-content: center;
-    align-items: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+
   }
