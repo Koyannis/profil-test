@@ -3,7 +3,6 @@
   --animate-delay: 0.5s;
 }
 
-
 body {
 
   overflow: hidden;
@@ -36,6 +35,10 @@ body {
   display:none;
 }
 
+.menu {
+  z-index: 15;
+  align-self: flex-end ;
+}
 
 .categoriesButtons {
   transition: opacity 0.7s ease;
@@ -81,3 +84,6 @@ body {
   z-index: -1;
   align-items: center;
 }
+
+
+
